@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		579DC960240B665D00C8169C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DC95F240B665D00C8169C /* AppDelegate.swift */; };
+		579DC962240B665D00C8169C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DC961240B665D00C8169C /* SceneDelegate.swift */; };
+		579DC964240B665D00C8169C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DC963240B665D00C8169C /* ViewController.swift */; };
+		579DC967240B665D00C8169C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579DC965240B665D00C8169C /* Main.storyboard */; };
+		579DC969240B665E00C8169C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579DC968240B665E00C8169C /* Assets.xcassets */; };
+		579DC96C240B665E00C8169C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579DC96A240B665E00C8169C /* LaunchScreen.storyboard */; };
+		579DC977240B665E00C8169C /* Swift_DatePicker_TextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DC976240B665E00C8169C /* Swift_DatePicker_TextFieldTests.swift */; };
+		579DC982240B665E00C8169C /* Swift_DatePicker_TextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DC981240B665E00C8169C /* Swift_DatePicker_TextFieldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		579DC973240B665E00C8169C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579DC954240B665D00C8169C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579DC95B240B665D00C8169C;
+			remoteInfo = Swift_DatePicker_TextField;
+		};
+		579DC97E240B665E00C8169C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579DC954240B665D00C8169C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579DC95B240B665D00C8169C;
+			remoteInfo = Swift_DatePicker_TextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		579DC95C240B665D00C8169C /* Swift_DatePicker_TextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_DatePicker_TextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		579DC95F240B665D00C8169C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		579DC961240B665D00C8169C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		579DC963240B665D00C8169C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		579DC966240B665D00C8169C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		579DC968240B665E00C8169C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		579DC96B240B665E00C8169C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		579DC96D240B665E00C8169C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579DC972240B665E00C8169C /* Swift_DatePicker_TextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_DatePicker_TextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		579DC976240B665E00C8169C /* Swift_DatePicker_TextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_DatePicker_TextFieldTests.swift; sourceTree = "<group>"; };
+		579DC978240B665E00C8169C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579DC97D240B665E00C8169C /* Swift_DatePicker_TextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_DatePicker_TextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		579DC981240B665E00C8169C /* Swift_DatePicker_TextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_DatePicker_TextFieldUITests.swift; sourceTree = "<group>"; };
+		579DC983240B665E00C8169C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		579DC959240B665D00C8169C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579DC96F240B665E00C8169C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579DC97A240B665E00C8169C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		579DC953240B665D00C8169C = {
+			isa = PBXGroup;
+			children = (
+				579DC95E240B665D00C8169C /* Swift_DatePicker_TextField */,
+				579DC975240B665E00C8169C /* Swift_DatePicker_TextFieldTests */,
+				579DC980240B665E00C8169C /* Swift_DatePicker_TextFieldUITests */,
+				579DC95D240B665D00C8169C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		579DC95D240B665D00C8169C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				579DC95C240B665D00C8169C /* Swift_DatePicker_TextField.app */,
+				579DC972240B665E00C8169C /* Swift_DatePicker_TextFieldTests.xctest */,
+				579DC97D240B665E00C8169C /* Swift_DatePicker_TextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		579DC95E240B665D00C8169C /* Swift_DatePicker_TextField */ = {
+			isa = PBXGroup;
+			children = (
+				579DC95F240B665D00C8169C /* AppDelegate.swift */,
+				579DC961240B665D00C8169C /* SceneDelegate.swift */,
+				579DC963240B665D00C8169C /* ViewController.swift */,
+				579DC965240B665D00C8169C /* Main.storyboard */,
+				579DC968240B665E00C8169C /* Assets.xcassets */,
+				579DC96A240B665E00C8169C /* LaunchScreen.storyboard */,
+				579DC96D240B665E00C8169C /* Info.plist */,
+			);
+			path = Swift_DatePicker_TextField;
+			sourceTree = "<group>";
+		};
+		579DC975240B665E00C8169C /* Swift_DatePicker_TextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				579DC976240B665E00C8169C /* Swift_DatePicker_TextFieldTests.swift */,
+				579DC978240B665E00C8169C /* Info.plist */,
+			);
+			path = Swift_DatePicker_TextFieldTests;
+			sourceTree = "<group>";
+		};
+		579DC980240B665E00C8169C /* Swift_DatePicker_TextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				579DC981240B665E00C8169C /* Swift_DatePicker_TextFieldUITests.swift */,
+				579DC983240B665E00C8169C /* Info.plist */,
+			);
+			path = Swift_DatePicker_TextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		579DC95B240B665D00C8169C /* Swift_DatePicker_TextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579DC986240B665E00C8169C /* Build configuration list for PBXNativeTarget "Swift_DatePicker_TextField" */;
+			buildPhases = (
+				579DC958240B665D00C8169C /* Sources */,
+				579DC959240B665D00C8169C /* Frameworks */,
+				579DC95A240B665D00C8169C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift_DatePicker_TextField;
+			productName = Swift_DatePicker_TextField;
+			productReference = 579DC95C240B665D00C8169C /* Swift_DatePicker_TextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		579DC971240B665E00C8169C /* Swift_DatePicker_TextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579DC989240B665E00C8169C /* Build configuration list for PBXNativeTarget "Swift_DatePicker_TextFieldTests" */;
+			buildPhases = (
+				579DC96E240B665E00C8169C /* Sources */,
+				579DC96F240B665E00C8169C /* Frameworks */,
+				579DC970240B665E00C8169C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				579DC974240B665E00C8169C /* PBXTargetDependency */,
+			);
+			name = Swift_DatePicker_TextFieldTests;
+			productName = Swift_DatePicker_TextFieldTests;
+			productReference = 579DC972240B665E00C8169C /* Swift_DatePicker_TextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		579DC97C240B665E00C8169C /* Swift_DatePicker_TextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579DC98C240B665E00C8169C /* Build configuration list for PBXNativeTarget "Swift_DatePicker_TextFieldUITests" */;
+			buildPhases = (
+				579DC979240B665E00C8169C /* Sources */,
+				579DC97A240B665E00C8169C /* Frameworks */,
+				579DC97B240B665E00C8169C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				579DC97F240B665E00C8169C /* PBXTargetDependency */,
+			);
+			name = Swift_DatePicker_TextFieldUITests;
+			productName = Swift_DatePicker_TextFieldUITests;
+			productReference = 579DC97D240B665E00C8169C /* Swift_DatePicker_TextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		579DC954240B665D00C8169C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Isami Odagiri";
+				TargetAttributes = {
+					579DC95B240B665D00C8169C = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					579DC971240B665E00C8169C = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 579DC95B240B665D00C8169C;
+					};
+					579DC97C240B665E00C8169C = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 579DC95B240B665D00C8169C;
+					};
+				};
+			};
+			buildConfigurationList = 579DC957240B665D00C8169C /* Build configuration list for PBXProject "Swift_DatePicker_TextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 579DC953240B665D00C8169C;
+			productRefGroup = 579DC95D240B665D00C8169C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				579DC95B240B665D00C8169C /* Swift_DatePicker_TextField */,
+				579DC971240B665E00C8169C /* Swift_DatePicker_TextFieldTests */,
+				579DC97C240B665E00C8169C /* Swift_DatePicker_TextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		579DC95A240B665D00C8169C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579DC96C240B665E00C8169C /* LaunchScreen.storyboard in Resources */,
+				579DC969240B665E00C8169C /* Assets.xcassets in Resources */,
+				579DC967240B665D00C8169C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579DC970240B665E00C8169C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579DC97B240B665E00C8169C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		579DC958240B665D00C8169C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579DC964240B665D00C8169C /* ViewController.swift in Sources */,
+				579DC960240B665D00C8169C /* AppDelegate.swift in Sources */,
+				579DC962240B665D00C8169C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579DC96E240B665E00C8169C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579DC977240B665E00C8169C /* Swift_DatePicker_TextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579DC979240B665E00C8169C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579DC982240B665E00C8169C /* Swift_DatePicker_TextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		579DC974240B665E00C8169C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 579DC95B240B665D00C8169C /* Swift_DatePicker_TextField */;
+			targetProxy = 579DC973240B665E00C8169C /* PBXContainerItemProxy */;
+		};
+		579DC97F240B665E00C8169C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 579DC95B240B665D00C8169C /* Swift_DatePicker_TextField */;
+			targetProxy = 579DC97E240B665E00C8169C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		579DC965240B665D00C8169C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579DC966240B665D00C8169C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		579DC96A240B665E00C8169C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579DC96B240B665E00C8169C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		579DC984240B665E00C8169C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		579DC985240B665E00C8169C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		579DC987240B665E00C8169C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5N58WKMLX;
+				INFOPLIST_FILE = Swift_DatePicker_TextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Isami.Swift-DatePicker-TextField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		579DC988240B665E00C8169C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5N58WKMLX;
+				INFOPLIST_FILE = Swift_DatePicker_TextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Isami.Swift-DatePicker-TextField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		579DC98A240B665E00C8169C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5N58WKMLX;
+				INFOPLIST_FILE = Swift_DatePicker_TextFieldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Isami.Swift-DatePicker-TextFieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_DatePicker_TextField.app/Swift_DatePicker_TextField";
+			};
+			name = Debug;
+		};
+		579DC98B240B665E00C8169C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5N58WKMLX;
+				INFOPLIST_FILE = Swift_DatePicker_TextFieldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Isami.Swift-DatePicker-TextFieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_DatePicker_TextField.app/Swift_DatePicker_TextField";
+			};
+			name = Release;
+		};
+		579DC98D240B665E00C8169C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5N58WKMLX;
+				INFOPLIST_FILE = Swift_DatePicker_TextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Isami.Swift-DatePicker-TextFieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swift_DatePicker_TextField;
+			};
+			name = Debug;
+		};
+		579DC98E240B665E00C8169C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5N58WKMLX;
+				INFOPLIST_FILE = Swift_DatePicker_TextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Isami.Swift-DatePicker-TextFieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swift_DatePicker_TextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		579DC957240B665D00C8169C /* Build configuration list for PBXProject "Swift_DatePicker_TextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579DC984240B665E00C8169C /* Debug */,
+				579DC985240B665E00C8169C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579DC986240B665E00C8169C /* Build configuration list for PBXNativeTarget "Swift_DatePicker_TextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579DC987240B665E00C8169C /* Debug */,
+				579DC988240B665E00C8169C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579DC989240B665E00C8169C /* Build configuration list for PBXNativeTarget "Swift_DatePicker_TextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579DC98A240B665E00C8169C /* Debug */,
+				579DC98B240B665E00C8169C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579DC98C240B665E00C8169C /* Build configuration list for PBXNativeTarget "Swift_DatePicker_TextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579DC98D240B665E00C8169C /* Debug */,
+				579DC98E240B665E00C8169C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 579DC954240B665D00C8169C /* Project object */;
+}
