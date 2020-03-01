@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="00:00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="poI-7h-vRG">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="00:00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="poI-7h-vRG" customClass="PickerViewKeyboardTIME" customModule="Swift_DatePicker_TextField" customModuleProvider="target">
                                 <rect key="frame" x="143" y="419.5" width="128" height="57"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="47"/>
                                 <textInputTraits key="textInputTraits"/>

@@ -15,6 +15,7 @@
 		579DC96C240B665E00C8169C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579DC96A240B665E00C8169C /* LaunchScreen.storyboard */; };
 		579DC977240B665E00C8169C /* Swift_DatePicker_TextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DC976240B665E00C8169C /* Swift_DatePicker_TextFieldTests.swift */; };
 		579DC982240B665E00C8169C /* Swift_DatePicker_TextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DC981240B665E00C8169C /* Swift_DatePicker_TextFieldUITests.swift */; };
+		579DC990240B66DB00C8169C /* PickerViewKeyboardTIME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DC98F240B66DB00C8169C /* PickerViewKeyboardTIME.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		579DC97D240B665E00C8169C /* Swift_DatePicker_TextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_DatePicker_TextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		579DC981240B665E00C8169C /* Swift_DatePicker_TextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_DatePicker_TextFieldUITests.swift; sourceTree = "<group>"; };
 		579DC983240B665E00C8169C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579DC98F240B66DB00C8169C /* PickerViewKeyboardTIME.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewKeyboardTIME.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				579DC968240B665E00C8169C /* Assets.xcassets */,
 				579DC96A240B665E00C8169C /* LaunchScreen.storyboard */,
 				579DC96D240B665E00C8169C /* Info.plist */,
+				579DC98F240B66DB00C8169C /* PickerViewKeyboardTIME.swift */,
 			);
 			path = Swift_DatePicker_TextField;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579DC990240B66DB00C8169C /* PickerViewKeyboardTIME.swift in Sources */,
 				579DC964240B665D00C8169C /* ViewController.swift in Sources */,
 				579DC960240B665D00C8169C /* AppDelegate.swift in Sources */,
 				579DC962240B665D00C8169C /* SceneDelegate.swift in Sources */,
